@@ -4,7 +4,7 @@ import { nanoid } from "nanoid";
 import style from "./ContactForm.module.css";
 
 import { useDispatch } from "react-redux";
-import { addContact } from "../../redux/contactsSlice";
+import { addContact } from "../../redux/operations";
 
 const ContactForm = () => {
   const dispatch = useDispatch();
